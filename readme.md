@@ -12,6 +12,9 @@ Welcome to Ouss-Todos! This application is designed to manage todos using Electr
   - Navigate to the `api` directory for NestJS controllers, services, and models.
   - Install dependencies using `npm install`.
 
+ ## App UI
+ ![Screenshot 2024-07-12 152238](https://github.com/user-attachments/assets/1df11287-4dcc-4e17-bbf6-9ae2f48fdef0)
+
 ## Getting Started
 
 ### Clone the Repository and Setup
