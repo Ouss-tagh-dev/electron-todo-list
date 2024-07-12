@@ -1,7 +1,7 @@
 <template>
   <el-row>
     <el-col :span="24" :offset="0" class="todo-list-container">
-      <h1 class="todo-list-title">Oussama Todos</h1>
+      <h1 class="todo-list-title">OussTodos</h1>
       <TodoForm :submitTodo="createTodo"></TodoForm>
       <el-table :data="todos" class="todo-table">
         <el-table-column prop="title" label="Title" width="350"></el-table-column>
@@ -90,6 +90,11 @@ const cancelDelete = () => {
 }
 
 .todo-list-title {
+  font-family: monospace;
+    font-size: 36px;
+  font-weight: bold;
+  color: #3366cc; /* Couleur bleue attrayante */
+  text-align: center;
   margin-bottom: 20px;
 }
 
